@@ -1,0 +1,200 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ h2, h3, h4, h5, h6, p, a{
+font-family: 'Montserrat', sans-serif; }
+h1{
+    font-family: 'Poppins', sans-serif;}
+ 
+ ul{
+     list-style-type: none;
+     overflow: hidden;
+ }
+ a{
+font-weight: 600;
+font-size: 14px;
+text-decoration: none;
+ }
+ /*--------header------*/
+ #header{
+     width: 100%;
+ }
+ 
+ #header .row{
+  display: flex; 
+  width: 71%;
+  padding: 20px 100px;
+  justify-content: space-between; 
+ }
+ #header img{
+     width: 100px;
+ }
+
+ #header  ul li a{
+     color: #252B42;
+
+ }
+  
+ #header  ul li a:hover{
+      cursor: pointer;
+      color: #FA4A0C;
+  }
+ 
+ 
+#header .menu-area-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+    nav.main-menu{
+    margin: auto 0;
+}
+ /*--------first-banner------*/
+
+#first-banner{
+    height: 1000px;   
+}
+#first-banner .inner-banner{
+    height: 620px;
+     background-image: url("../food _delivery/img/Rectangle\ 48.png");
+    background-repeat: no-repeat;
+    
+    
+}
+#first-banner .content{
+text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    width: 60%;
+}
+#first-banner .row{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+#first-banner .Playstore{
+    font-weight: 300;
+    background-color: #FA4A0C;
+   padding: 12px 34px;
+   border-radius: 22px;
+    color: #fff;
+    margin-right: 15px;
+}
+#first-banner .Appstore{
+    font-weight: 300;
+   padding: 12px 34px;
+   border-radius: 22px;
+   border: #fff solid 1px;
+    color: #fff;
+    margin-left: 15px;
+}
+ /*--------third-banner, fourth-banner------*/
+ #third-banner, #fourth-banner{
+    height: 650px;
+ }
+#third-banner img, #fourth-banner img{
+    width: 550px; 
+    object-position: 0 -100px;
+}
+#third-banner  .row{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 120px 0 0;
+
+}
+#fourth-banner  .row{
+     display: flex;
+    justify-content: space-around;
+    padding: 150px 0 0 120px;
+}
+
+#third-banner .content, #fourth-banner .content{
+    width: 31%;
+    padding-top: 150px;
+}
+#third-banner h3, #fourth-banner h3{
+    color: #FA4A0C;
+     font-size: 22px;
+     font-weight: 700;
+}
+#third-banner h2, #fourth-banner h2{
+   color: #252B42; 
+   font-size: 28px; 
+   font-weight: 700;
+}
+#third-banner p, #fourth-banner p{
+   color: #737373; 
+   font-size: 20px; 
+   font-weight: 500; 
+   letter-spacing: 0.5px;
+}
+ /*--------last-banner------*/
+
+#last-banner{
+    margin-top: 100px;  
+}
+#last-banner .inner-banner{
+    height: 510px;
+     background-image: url("../food _delivery/img/Rectangle\ 47.png");
+    background-repeat: no-repeat;
+    
+    
+}
+#last-banner .content{
+text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    width: 60%;
+}
+#last-banner .row{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+#last-banner .Playstore{
+    font-weight: 300;
+    background-color: #FA4A0C;
+   padding: 14px 34px;
+   border-radius: 10px;
+    color: #fff;
+    margin-right: 15px;
+}
+#last-banner .Appstore{
+    font-weight: 300;
+   padding: 14px 34px;
+   border-radius: 10px;
+   border: #fff solid 1px;
+    color: #fff;
+    margin-left: 15px;
+}
+ /*--------footer------*/
+#footer{
+    height: 100px;
+}
+
+#footer .container{
+    height: 100px;
+    margin: auto;
+
+}
+#footer .footer-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px 0 100px;
+    margin: auto;
+}
+#footer  p{
+    color: #5C5C5C;
+    font-size: 10px;
+    font-weight: 700;
+}
+.foot{
+margin: auto;
+}
